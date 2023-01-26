@@ -39,14 +39,16 @@ body {
     font-family: 'Roboto Mono', monospace;
     font-size: 20px;
     border-radius: 25px;
-    background-color: grey;
-    padding: 20px;
+    background-color: transparent;
+    padding: 10px;
+    padding-bottom: 15px;
     text-align: center;
-    border: 2px solid rgb(234, 11, 11);
+    border: 4px solid #02271d;
+    text-decoration: none;
   }
 
   .has-border {
-    border-radius: 25px;
+    border-radius: 25%;
     border: 4px solid #02271d;
     background: none;
     padding: 20px;
@@ -110,17 +112,20 @@ body {
     color: white;
   }
   button#testing {
+    display: flex;
+    align-items: center;
     grid-column: 3/3;
-    margin-top: 40%;
+    margin-top: 35%;
     margin-right:30%;
     width: 80%;
     height: 20%;
     font-family: 'Roboto Mono', monospace;
-    font-size: 30px;
+    font-size: 25px;
     border-radius: 5px;
     background-color: rgb(242, 213, 160);
     padding: 20px;
-    padding-bottom: 12%;
+    padding-top: 15%;
+    padding-bottom: 15%;
     text-align: center;
     color: rgb(0, 0, 0);
     border-color: rgb(217, 163, 63);
