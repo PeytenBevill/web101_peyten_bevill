@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="./reset.css">
+  <link rel="stylesheet" href="./contact-styles.css">
+</head>
+<body>
+  <form action="results.html" method="GET" enctype="multipart/form-data">
+    <div class="containerOne">
+    <h1>I'd love to hear from you!</h1>
+    <div class="image">
+    <img src="./584856b4e0bb315b0f7675ac.png" alt="Black and white envelope">
+    </div>
+    <div class="inputs">
+      <label for="name">Name:</label>
+      <input type="text">
+      <label for="name">Birthday</label>
+      <input type="date">
+      <label for="comments">Comments:</label>
+      <input type="text" minlength="20" maxlength="500">
+      <span class="anchor">How did you hear about me?</span>
+      <ul class="items">
+     <li><input type="checkbox" />Classmate </li>
+     <li><input type="checkbox" />Resume Submission</li>
+      <li><input type="checkbox" />LinkedIn </li>
+      <li><input type="checkbox" />Coding Academy Rec </li>
+      </ul>
+      <span class="anchor">Would you like to be contacted back?</span>
+      <ul class="items">
+        <li><input type="radio" name="contact" id="yes">Yes</li>
+        <li><input type="radio" name="contact" id="no">No</li>
+      </ul>
+    <button type="submit">Send Message</button>
+  </div>
+</form>
+<script src="./contact.js"></script>
+</body>
+</html>

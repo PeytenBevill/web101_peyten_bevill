@@ -1,8 +1,6 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(255, 255, 255);
-    background-repeat: no-repeat;
-    background-size: cover;
+    font-family: sans-serif;
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/geometric-leaves.png);
     margin-right: 3%;
   }
   /* What kind of selector is this? */
@@ -23,7 +21,7 @@ body {
     width: 100%;
     display: grid;
     grid-template-columns: 30% 40% 30%;
-    background-color: grey;
+    background-color: rgb(237, 236, 236);
     border-radius: 10px;
     margin-left: 10px;
     margin-right: 30px;
@@ -32,14 +30,14 @@ body {
 
   /* This is an element within and element selector */ 
   nav > a {
-    margin: 2% 1% 3%;
+    /* margin: 2% 1% 3%; */
     height: 10%;
     width: 15%;
     color: rgb(3, 3, 3);
-    font-family: 'Roboto Mono', monospace;
+    font-family: sans-serif;
     font-size: 20px;
     border-radius: 25px;
-    background-color: transparent;
+    background-color: white;
     padding: 10px;
     padding-bottom: 15px;
     text-align: center;
@@ -70,17 +68,17 @@ body {
   }
 
   h1 {
-    color:rgb(255, 255, 255);
+    color:black;
     grid-column: 1/3;
     margin-left: 20%;
     text-decoration: underline;
-    font-family: 'Roboto Mono', monospace;
+    font-family: sans-serif;
   }
 
   h2 {
     grid-column: 1/3;
     margin-left: 15%;
-    font-family: 'Roboto Mono', monospace;
+    font-family: sans-serif;
   }
 
   .small-text {
@@ -91,42 +89,24 @@ body {
     margin: 3% auto;
   }
 
-  button#portfolio {
-    grid-column: 1/3;
-    margin-left: 10%;
-    width: 40%;
-    height: 15%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    border-radius: 25px;
-    background-color: rgb(242, 213, 160);
-    padding: 20px;
-    padding-bottom: 5%;
-    text-align: center;
-    color: rgb(4, 4, 4);
-    letter-spacing: 16px;
-    border-color: rgb(217, 163, 63);
-  }
-
-  button:hover {
+  /* button:hover {
     color: white;
+  } */
+
+  div.button {
+    display: flex;
   }
   button#testing {
-    display: flex;
+    justify-content: center;
     align-items: center;
-    grid-column: 3/3;
-    margin-top: 35%;
-    margin-right:30%;
+    margin-top: 45%;
     width: 80%;
-    height: 20%;
-    font-family: 'Roboto Mono', monospace;
+    height: 30%;
+    font-family: sans-serif;
     font-size: 25px;
     border-radius: 5px;
-    background-color: rgb(242, 213, 160);
-    padding: 20px;
-    padding-top: 15%;
-    padding-bottom: 15%;
+    background-color: rgb(173, 192, 173);
     text-align: center;
     color: rgb(0, 0, 0);
-    border-color: rgb(217, 163, 63);
+    border-color: rgb(80, 98, 81);
   }

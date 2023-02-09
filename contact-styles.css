@@ -1,0 +1,50 @@
+body {
+  background-image: url(./email-pattern.png);
+  color: #243763;
+  margin: 5%;
+  font-family: sans-serif;
+}
+
+div.containerOne {
+  background-color: rgb(255, 255, 255);
+  color: #243763;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: .5fr 1.5fr;
+}
+
+div.containerOne h1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  margin-top: 10%;
+  margin-left: 30%;
+}
+
+div.image {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  display: flex;
+}
+
+img {
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  margin-left: 30%;
+}
+
+div.inputs {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  display: flex;
+  flex-direction: column;
+  margin-right: 10%;
+  background-color: rgb(237, 236, 236);
+  padding: 5%;
+  margin-bottom: 10%;
+}
+
+ul {
+  list-style-type: none;
+}
